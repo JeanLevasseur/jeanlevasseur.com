@@ -1,32 +1,25 @@
 {
-  "name": "nuxt-markdown-blog-starter",
-  "version": "1.0.0",
-  "author": "marinaaisa <marina@marinaaisa.com>",
-  "private": true,
-  "engines": {
-    "node": ">=8.0.0",
-    "npm": ">=5.0.0"
-  },
-  "dependencies": {
-    "@nuxtjs/style-resources": "^1.0.0",
-    "markdown-it": "^10.0.0",
-    "markdown-it-prism": "^2.0.3",
-    "normalize.css": "^8.0.1",
-    "nuxt": "^2.11.0",
-    "nuxt-i18n": "^6.4.1",
-    "nuxt-webfontloader": "^1.1.0",
-    "vue-lazyload": "^1.3.3"
-  },
+  "name": "jeanlevasseur.com",
+  "description": "Pour l'instant ce site n'est consitué que d'une seule page statique.",
+  "version": "0.1.0",
   "scripts": {
-    "dev": "nuxt",
-    "generate": "nuxt generate",
-    "analyze": "nuxt build --analyze"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss-cli build ./src/assets/css/styles.css -o ./dist/assets/css/styles.css"
   },
   "devDependencies": {
-    "frontmatter-markdown-loader": "^3.1.0",
-    "node-sass": "^4.13.0",
-    "responsive-loader": "^1.2.0",
-    "sass-loader": "^8.0.0",
-    "sharp": "^0.23.4"
-  }
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.10",
+    "tailwindcss": "^2.1.1",
+    "tailwindcss-cli": "^0.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeanLevasseur/jeanlevasseur.com.git"
+  },
+  "author": "Jean Levasseur <jean@jeanlevasseur.com> (https://www.jeanlevasseur.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JeanLevasseur/jeanlevasseur.com/issues"
+  },
+  "homepage": "https://github.com/JeanLevasseur/jeanlevasseur.com#readme"
 }
